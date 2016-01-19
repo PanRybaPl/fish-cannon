@@ -1,0 +1,10 @@
+name: FishCannon
+version: 1.0
+main: pl.panryba.mc.cannon.Plugin
+depend: [WorldGuard]
+commands:
+    ignite:
+        permission: fishcannon.ignite
+permissions:
+    fishcannon.ignite:
+        default: op
